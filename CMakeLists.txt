@@ -70,6 +70,7 @@ add_subdirectory(src/HypDespot/)
 message("Adding examples")
 add_subdirectory(src/HyP_examples/ma_rock_sample)
 add_subdirectory(src/HyP_examples/unkown_navigation)
+add_subdirectory(src/HyP_examples/ma_rock_checkers)
 
 set_target_properties( "${PROJECT_NAME}"
                        PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
